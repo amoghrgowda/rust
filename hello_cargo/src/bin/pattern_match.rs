@@ -1,7 +1,7 @@
 use std::io::{self,Write};
 fn main(){
     let mut input = String::new();
-    print!("Enter a character a or b:");
+    print!("Enter a character a or b: ");
     io::stdout().flush().expect("Failed to flush stdout");
     io::stdin().read_line(&mut input).expect("Failed to read line");
 
