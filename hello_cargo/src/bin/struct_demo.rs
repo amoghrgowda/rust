@@ -1,8 +1,9 @@
-use std::io::{self, Read};
+use std::io;
 fn main(){
     let mut user_name = String::new();
     let mut user_age = String::new();
     let mut user_status = String::new();
+    
     println!("Enter the user's name:");
     io::stdin().read_line(&mut user_name).expect("Failed to read user name");
     println!("Enter the user's age:");
